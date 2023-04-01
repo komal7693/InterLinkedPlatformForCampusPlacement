@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+        #logout{
+            position:absolute;
+            left:90%;
+            top:50px;
+            border :2px solid black;
+            border-radius: 3px;
+            padding:7px 15px;
+            font-family: sans-serif;
+            cursor: pointer;
+            color:black;
+            text-decoration: none;
+        }
+        #logout:hover{
+            background-color: black;
+            color:white;
+            text-decoration: underline;
+            
+        }
+    </style>
+    </head>
+    <body>
+       
+         <a href='SessionExpire' id='logout' onclick='return check()'>logout</a>
+          <script>
+                 function check(){
+                     let x= confirm("Are you sure ,do you want do logout");
+                     return x;
+                 }
+            </script>
+    </body>
+</html>
