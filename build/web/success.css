@@ -1,0 +1,49 @@
+.content {
+  width: 50%;
+  margin: 30px auto;
+  text-align: center;
+}
+.content img {
+  width: 100px;
+  height: 100px;
+}
+.details {
+  width: 70%;
+  margin: 0 auto;
+  border: 1px solid gray;
+  box-shadow: 8px 8px 15px rgb(99, 146, 29);
+  padding: 30px;
+  line-height: 2em;
+  font-size: 1.2em;
+  font-weight: 400;
+}
+.greet {
+  width: 60%;
+  margin: 40px auto;
+  color: rgb(67, 102, 15);
+  background-color: rgb(217, 232, 238);
+  padding: 10px;
+}
+.content h2 {
+  color: rgb(83, 131, 11);
+  font-size: 1.8em;
+}
+a {
+  color: rgb(106, 155, 34);
+  border: 2px solid rgb(67, 102, 15);
+  border-radius: 20px;
+  padding: 10px 30px;
+  color: black;
+  text-decoration: none;
+}
+#desc {
+  margin-bottom: 40px;
+}
+span {
+  font-weight: 600;
+}
+.greet span img {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+}
